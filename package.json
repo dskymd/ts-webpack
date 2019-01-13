@@ -1,0 +1,20 @@
+{
+  "name": "ts-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.2.2",
+    "webpack-cli": "^3.2.1",
+    "webpack": "^4.28.4"
+  },
+  "dependencies": {},
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dskymd",
+  "private": true,
+  "license": "ISC"
+}

@@ -2,14 +2,16 @@
   "name": "ts-webpack",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  // "main": "index.js",
+  "dependencies": {},
   "devDependencies": {
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
     "ts-loader": "^5.3.3",
     "typescript": "^3.2.2",
-    "webpack-cli": "^3.2.1",
-    "webpack": "^4.28.4"
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
   },
-  "dependencies": {},
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"

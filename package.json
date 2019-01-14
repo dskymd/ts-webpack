@@ -12,7 +12,9 @@
     "webpack-cli": "^3.2.1"
   },
   "scripts": {
+    "builds": "npm run build & npm run tsc",
     "build": "webpack",
+    "tsc": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "dskymd",
